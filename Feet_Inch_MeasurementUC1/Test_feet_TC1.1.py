@@ -19,10 +19,4 @@ class TestQuantity(unittest.TestCase, Exception):
         res = quantity.feet_Equal_feet()
         self.assertEqual(res, 'Equal')
 
-    def test_feet_equalto_feet_Null_check(self):
-        '''Description: test_feet_equalto_feet_Null_check is defined to check if feet not none
-            Function Parameters: self
-            Return: None'''
-        quantity = Feet_Quantity(0, 0)
-        res = quantity.feet_Not_None()
-        self.assertEqual(res, 'Not None')
+   
