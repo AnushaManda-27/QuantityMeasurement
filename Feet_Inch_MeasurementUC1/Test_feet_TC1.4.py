@@ -11,13 +11,7 @@ from Quantity_Feet import Feet_Quantity
 
 class TestQuantity(unittest.TestCase, Exception):
 
-    def test_feet_equalto_feet(self):
-        '''Description: test_feet_equalto_feet is defined to check if feet equal to feet
-            Function Parameters: self
-            Return: None'''
-        quantity = Feet_Quantity(12, 12)
-        res = quantity.feet_Equal_feet()
-        self.assertEqual(res, 'Equal')
+
 
     def test_feet_equalto_feet_Null_check(self):
         '''Description: test_feet_equalto_feet_Null_check is defined to check if feet not none
