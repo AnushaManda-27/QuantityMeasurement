@@ -6,7 +6,7 @@
 '''
 import unittest
 
-from yard_feet import Yard_Feet, Feet_Yard, Yard_inch, Inch_Yard
+from yard_feet import Yard_Feet, Yard_inch, Inch_Yard
 
 
 class TestYardToFeet(unittest.TestCase):
